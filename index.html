@@ -1,5 +1,40 @@
 ---
 layout: home
-title: GEMS
+title: <span class="wave-text">GEMS</span>
+<style>
+.wave-text {
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+}
+.wave-text span {
+    display: inline-block;
+    animation: wave 1s infinite;
+    animation-delay: calc(var(--i) * 0.1s);
+}
+@keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    20% { transform: translateY(-10px); }
+    40% { transform: translateY(0); }
+    60% { transform: translateY(10px); }
+    80% { transform: translateY(0); }
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const waveText = document.querySelector('.wave-text');
+    if (waveText) {
+        const text = waveText.textContent;
+        waveText.textContent = '';
+        text.split('').forEach((char, i) => {
+            const span = document.createElement('span');
+            span.textContent = char;
+            span.style.setProperty('--i', i);
+            waveText.appendChild(span);
+        });
+    }
+});
+</script>
 subtitle: Sustainability at the University of York - GEMS Society
 ---
