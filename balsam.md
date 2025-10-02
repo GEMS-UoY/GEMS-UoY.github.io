@@ -2,7 +2,6 @@
 layout: Page
 title: Himilayan Balsam Removal
 subtitle: GEMS Society Event
-permalink: /balsam.html
 ---
 
 GEMS is a student-led group promoting sustainability across campus and beyond. We run projects from September-April/May with the aim of achieving Green Impact Awards every year. New members from any department are welcome throughout the year to get involved with current projects and new project proposals are held between September-October.

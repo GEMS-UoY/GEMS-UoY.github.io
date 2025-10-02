@@ -20,7 +20,7 @@ author: University of York
 ###############################################
 
 navbar-links:
-  About Me: "aboutus"
+  information: "aboutus"
   Resources:
     - Sustainability Map: "sustainmap"
     - Himalayan Balsam Removal: "balsam"
