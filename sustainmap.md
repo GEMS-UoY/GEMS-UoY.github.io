@@ -5,7 +5,7 @@ subtitle: GEMS Society Event
 permalink: /sustainmap.html
 ---
 
-...existing code...
+
 <style>
   .sustain-map-wrapper{
     display: flex;
@@ -42,6 +42,19 @@ permalink: /sustainmap.html
   @media (max-width: 480px){
     .sustain-map-title{ font-size: 1.25rem; }
   }
+
+
+  page-col: "#E6FFF7"         # light green background
+  text-col: "#2C3E50"         # dark blue-gray text
+  link-col: "#1E90FF"         # blue links
+  hover-col: "#27AE60"        # green hover
+  navbar-col: "#B3E5FC"       # light blue navbar
+  navbar-text-col: "#2C3E50"  # dark blue-gray navbar text
+  navbar-border-col: "#81D4FA" # medium blue border
+  footer-col: "#B2DFDB"       # light green footer
+  footer-text-col: "#2C3E50"  # dark blue-gray footer text
+  footer-link-col: "#1E90FF"  # blue footer links
+  footer-hover-col: "#27AE60" # green footer hover
 </style>
 
 <div class="sustain-map-wrapper">
