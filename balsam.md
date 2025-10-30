@@ -2,7 +2,7 @@
 layout: Page
 title: Himalayan Balsam Removal
 subtitle: GEMS Society Event
-permalink: /balsam.md
+permalink: /balsam.html
 ---
 
 <style>
