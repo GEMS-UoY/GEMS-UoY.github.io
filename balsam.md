@@ -50,19 +50,6 @@ permalink: /balsam.html
   }
   .site-nav a:hover{ color: var(--hover-col); }
 
-  .balsam-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 1;            /* <--- add this line */
-    min-height: 70vh;
-    padding: 2rem 1rem;
-    box-sizing: border-box;
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-
   .balsam-title{
     text-align: center;
     margin: 0 0 1rem 0;
@@ -138,6 +125,3 @@ permalink: /balsam.html
   }
 </style>
 
-<footer class="site-footer" role="contentinfo" aria-label="Footer">
-  <div>Part of the GEMS Society — <a href="/privacy.html">Privacy</a></div>
-</footer>
