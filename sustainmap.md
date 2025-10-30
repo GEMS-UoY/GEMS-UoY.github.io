@@ -128,6 +128,14 @@ permalink: /sustainmap.html
     <iframe src="https://www.google.com/maps/d/embed?mid=1vpPdS0OM4f2qios5Il8042YE1ZltnoA&ehbc=2E312F" allowfullscreen loading="lazy"></iframe>
   </div>
 </div>
+<style>
+  /* ensure footer stays at the bottom of the viewport */
+  html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
 
 <footer class="site-footer" role="contentinfo" aria-label="Footer">
   <div>Part of the GEMS Society — <a href="/privacy.html">Privacy</a></div>
