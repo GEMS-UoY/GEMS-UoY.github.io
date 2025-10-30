@@ -55,6 +55,7 @@ permalink: /balsam.html
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    flex: 1;            /* <--- add this line */
     min-height: 70vh;
     padding: 2rem 1rem;
     box-sizing: border-box;

@@ -137,4 +137,6 @@ permalink: /sustainmap.html
   }
 </style>
 
-
+<footer class="site-footer" role="contentinfo" aria-label="Footer">
+  <div>Part of the GEMS Society — <a href="/privacy.html">Privacy</a></div>
+</footer>
