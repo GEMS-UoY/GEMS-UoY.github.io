@@ -12,7 +12,7 @@ permalink: /sustainmap.html
     --text-col: #2C3E50;         /* dark blue-gray text */
     --link-col: #1E90FF;         /* blue links */
     --hover-col: #27AE60;        /* green hover */
-    --navbar-col: #B3E5FC;       /* light blue navbar */
+    --navbar-col: #B3E5FC;       /* light blue navbar */ 
     --navbar-text-col: #2C3E50;  /* dark blue-gray navbar text */
     --navbar-border-col: #81D4FA;/* medium blue border */
     --footer-col: #B2DFDB;       /* light green footer */
@@ -38,7 +38,11 @@ permalink: /sustainmap.html
     align-items:center;
     justify-content:space-between;
     gap:1rem;
-    background: var(--navbar-col);
+    /* use image instead of solid color - adjust the path if needed */
+    background-image: url('/assets/green.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: var(--navbar-text-col);
     border-bottom: 1px solid var(--navbar-border-col);
     padding: .75rem 1rem;
