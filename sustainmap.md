@@ -39,7 +39,7 @@ permalink: /sustainmap.html
     justify-content:space-between;
     gap:1rem;
     /* use image instead of solid color - adjust the path if needed */
-    background-image: url('/assets/green.png');
+    background-image: url('/assets/img/green.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,8 +88,8 @@ permalink: /sustainmap.html
   }
 
   .map-container iframe{
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     border: 0;
     display: block;
   }
