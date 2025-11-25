@@ -19,7 +19,7 @@ permalink: /sustainmap.html
     --footer-text-col: #2C3E50;  /* dark blue-gray footer text */
     --footer-link-col: #1E90FF;  /* blue footer links */
     --footer-hover-col: #27AE60; /* green footer hover */
-    --max-width: 1000px;
+    --max-width: 1200px;         /* increased max width for larger screens */
   }
 
   html,body{
@@ -80,6 +80,7 @@ permalink: /sustainmap.html
     width: 100%;
     max-width: var(--max-width);
     aspect-ratio: 16 / 9; /* keeps map responsive */
+    min-height: 60vh; /* make map taller on large screens */
     box-shadow: 0 8px 24px rgba(0,0,0,0.12);
     border-radius: 8px;
     overflow: hidden;
@@ -88,8 +89,8 @@ permalink: /sustainmap.html
   }
 
   .map-container iframe{
-    width: 150%;
-    height: 150%;
+    width: 100%;
+    height: 100%;
     border: 0;
     display: block;
   }
